@@ -93,12 +93,10 @@ body ul {
     position: relative;
     padding: 24px 0;
     font-weight: 500;
-}
-
-.link:first {
     color:#404bbF;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
 
 .link::after {
