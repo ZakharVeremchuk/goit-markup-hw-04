@@ -254,6 +254,39 @@ h3 {
     padding: 32px 0;
 }
 
+third-section-list:first-child {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
+}
+
+.third-element-icons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.third-element-icons-element {
+    width: 40px;
+    height: 40px;
+}
+
+.third-element-icons-element-link {
+    width: 100%;
+    height: 100%;
+    background-color: var(--iris-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.third-element-icons-element-link:hover,
+.third-element-icons-element-link:focus {
+    background-color: #404bbf;
+}
+
+.third-element-icons-element-link-svg {
+    fill:var(--cloud-color);
+}
 
 .footer {
     padding: 100px 0;
