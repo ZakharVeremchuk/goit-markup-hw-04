@@ -43,6 +43,7 @@ body ul {
     flex-direction: row;
     align-items: center;
     gap: 40px;
+    color: #404bbf;
 }
 
 .logo {
@@ -93,7 +94,6 @@ body ul {
     position: relative;
     padding: 24px 0;
     font-weight: 500;
-    color:#404bbF;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -136,8 +136,9 @@ h3 {
     font-size: 20px;
 }
 
-.address-link .information {
+.information {
     color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
