@@ -43,7 +43,6 @@ body ul {
     flex-direction: row;
     align-items: center;
     gap: 40px;
-    color: #404bbf;
 }
 
 .logo {
@@ -66,6 +65,7 @@ body ul {
     display: flex;
     flex-direction: row;
     gap: 40px;
+    color: #404bbf;
 }
 
 .header-link, .address-link {
