@@ -365,7 +365,7 @@ img {
     margin-bottom: 8px;
   }
 
-  .inside-footer {
+  .footer .container {
     display: flex;
     align-items: baseline;
   }
