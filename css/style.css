@@ -47,7 +47,7 @@ body ul {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link ::after {
+.link::after {
     content: "";
     width: 100%;
     position: absolute;
