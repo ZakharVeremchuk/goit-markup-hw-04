@@ -65,7 +65,6 @@ body ul {
     display: flex;
     flex-direction: row;
     gap: 40px;
-    color: #404bbf;
 }
 
 .header-link, .address-link {
