@@ -125,18 +125,23 @@ h3 {
 }
 
 
-.service {
+.first-section {
     background-color: var(--navy-blue-color) ;
     padding: 188px 0;
+    background-image:  linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    max-width: 1440px;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
 }
 
-.service-header {
+.first-section-header {
     line-height: 1.07;
     letter-spacing: 0.02em;
     max-width: 496px;
     margin: 0 auto;
 }
-.service .service-button {
+.first-section .first-section-button {
     display: block;
     margin: 48px auto 0;
     font-family: Roboto, sans-serif;
@@ -151,10 +156,11 @@ h3 {
     cursor: pointer;
     background-color: var(--iris-color);
     color: var(--white-text-color);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.service-button:focus, 
-.service-button:hover  {
+.first-section-button:focus, 
+.first-section-button:hover  {
     background-color: var(--ocean-color);
 }
 
@@ -262,7 +268,7 @@ img {
     gap: 40px;
 }
 
-.service .container {
+.first-section .container {
     flex-direction: column;
     align-items: center; 
     justify-content: center;
